@@ -1,0 +1,39 @@
+.Album {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+
+  text-align: center;
+  box-shadow: 2px 2px 3px #AAAAAA;
+}
+
+.Album img {
+  grid-row: 1;
+  grid-column: 1;
+  
+  margin: 0 auto;
+}
+
+.Album .name {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.Album .view {
+  grid-row: 3;
+  grid-column: 1;
+
+  background-color: #FF4136;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 auto;
+
+  border-radius: 3px;
+}
